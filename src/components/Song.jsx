@@ -10,12 +10,12 @@ return(<div className="row">
 <div className="col-4">
     <img src ={song.artworkUrl100} alt = "artist img"/>
     </div>
-    <div className="col-4 mt-2">
+    <div className="col-4 mt-4">
     Artist Name: <b>{song.artistName}</b> <br />
     Track Name: <b>{song.trackName}</b>
     </div>
     <div className="col-4">
-    <button onClick={showPlayer} className="btn btn-primary">Play</button>
+    <button onClick={showPlayer} className="mt-4 btn btn-primary">Play</button>
     </div>
     </div>)
 }
